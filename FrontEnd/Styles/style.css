@@ -79,7 +79,7 @@ nav{
     justify-content: center;
     margin-left: 1vw;
 }
-.main-header__top-social svg {
+.main-header__top-social img {
     width: 1.5vw;
     height: 1.5vw;
 }
@@ -166,7 +166,7 @@ nav{
     width: 1px;
     background-color: #e4e5ea;
 }
-.main-header__logo svg {
+.main-header__logo img {
     display: block;
     width: 10vw;
     height: 4vw;
@@ -207,13 +207,13 @@ header{
 	margin: 0 2%;
 }
 .content-buttons-nav button:last-child {
-	background: #67CBE6;	
+	background: #67CBE6;
 	float: right;
     width: 16%;
 	margin: 0;
 	font-family: 'Bunya-Bold_PERSONAL';
 	height: 100%;
-	   border-radius: 0 8px 8px 0;
+	border-radius: 0 8px 8px 0;
 }
 .button_logo{
 	background: none;
@@ -221,17 +221,23 @@ header{
 	cursor: pointer;
 	grid-area: bottom-left;
 	height: 10vh;
-	    display: none;
+	display: none;
 }
-.button_logo svg{
+.button_logo img {
 	width: 12vw;
 }
-.button-logo svg {
+.button-logo img {
     display: block;
     width: 10vw;
     height: 2.5vw;
 }
-.icon svg {
+.icon img {
     width: 1.5vw;
     height: 1.5vw;
+}
+.button-logo-responsive,
+.button-burger,
+.menu-list-responsive,
+.button-logo svg {
+    display: none;
 }
