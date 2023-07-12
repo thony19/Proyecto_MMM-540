@@ -8,12 +8,15 @@
 import Paso_1 from './Paso_1.vue';
 import Paso_2 from './Paso_2.vue';
 import Paso_3 from './Paso_3.vue';
+import Paso_4 from './Paso_4.vue';
+// import Paso_4Vue from ''
 
 export default {
   components: {
     Paso_1,
     Paso_2,
-    Paso_3
+    Paso_3,
+    Paso_4
   },
   data() {
     return {
@@ -28,6 +31,8 @@ export default {
         this.currentStep = 'Paso_2';
       } else if (this.currentStep === 'Paso_2') {
         this.currentStep = 'Paso_3';
+      } else if (this.currentStep === 'Paso_3') {
+        this.currentStep = 'Paso_4';
       }
     },
     previousStep() {
@@ -35,6 +40,8 @@ export default {
         this.currentStep = 'Paso_1';
       } else if (this.currentStep === 'Paso_3') {
         this.currentStep = 'Paso_2';
+      } else if (this.currentStep === 'Paso_4') {
+        this.currentStep = 'Paso_3';
       }
     },
     submitForm(data) {
