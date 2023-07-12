@@ -1,6 +1,6 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
-import Form_1 from './components/Form_1.vue';
+import Form from './components/Form.vue';
 </script>
 
 <template>
@@ -14,7 +14,7 @@ import Form_1 from './components/Form_1.vue';
         </a>
       </div>
       <!-- <HelloWorld msg="Estilos de Aprendizaje e Inteligencias múltiples" /> -->
-      <Form_1></Form_1>
+      <Form></Form>
   </div>
 </template>
 
