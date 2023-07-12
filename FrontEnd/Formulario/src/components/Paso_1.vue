@@ -1,5 +1,5 @@
 <template>
-  <div id="form_">
+  <div class="form_">
     <h2>Paso 1</h2>
     <!-- <input type="text" v-model="stepData.input1" placeholder="Ingrese su nombre"> -->
 

@@ -118,6 +118,10 @@ h2 {
   width: 100%;
 }
 
+.input-container:hover {
+    border-color: #646cff;
+}
+
 .cut {
   background-color: transparent;
   border-radius: 10px;
@@ -127,7 +131,7 @@ h2 {
   top: -20px;
   transform: translateY(0);
   transition: transform 200ms;
-  width: 20%;
+  width: 25%;
 }
 
 .input:focus ~ .cut,
@@ -158,7 +162,7 @@ h2 {
 }
 
 .input:focus ~ .placeholder {
-  color: #dc2f55;
+  color: #2fdc6c;
 }
 
 .imput_select {
