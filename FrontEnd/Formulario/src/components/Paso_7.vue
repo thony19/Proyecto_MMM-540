@@ -35,14 +35,75 @@
 
     <!-- Pregunta 2 -->
     <div class="input-container ic1 input imput_select">
+      2 Selecciona la parroquia donde vives
       <select v-model="stepData.input6" required>
         <option value="" disabled selected>Seleccione una opción</option>
-        <option value="Estudiante">Estudiante</option>
-        <option value="Docente">Docente</option>
-        <option value="Club Deportivo de la Universidad">Club Deportivo de la Universidad</option>
-        <option value="Publico General">Publico General</option>
+        <option value="Estudiante">Analgasí</option>
+        <option value="Docente">Amaguaña</option>
+        <option value="Club Deportivo de la Universidad">Atahualpa</option>
+        <option value="Publico General">Belisario Quevedo</option>
+        <option value="Estudiante">Calacalí</option>
+        <option value="Docente">Calderón</option>
+        <option value="Club Deportivo de la Universidad">Carcelén</option>
+        <option value="Publico General">Centro Histórico</option>
+        <option value="Estudiante">Chavezpamba</option>
+        <option value="Docente">Checa</option>
+        <option value="Club Deportivo de la Universidad">Chilbulo</option>
+        <option value="Publico General">Chillogallo</option>
+        <option value="Estudiante">Chimbacalle</option>
+        <option value="Docente">Cochapamba</option>
+        <option value="Club Deportivo de la Universidad">Comité del Pueblo</option>
+        <option value="Publico General">Concepción</option>
+        <option value="Estudiante">Conocoto</option>
+        <option value="Docente">Cotocollao</option>
+        <option value="Club Deportivo de la Universidad">Cumbayá</option>
+        <option value="Publico General">El Condado</option>
+        <option value="Estudiante">El Inca</option>
+        <option value="Docente">El Quinche</option>
+        <option value="Club Deportivo de la Universidad">Gualea</option>
+        <option value="Publico General">Guamaní</option>
+        <option value="Estudiante">Guangopolo</option>
+        <option value="Docente">Guayllabamba</option>
+        <option value="Club Deportivo de la Universidad">Iñaquito</option>
+        <option value="Publico General">Itchimbía</option>
+        <option value="Estudiante">Jipijapa</option>
+        <option value="Docente">Kennedy</option>
+        <option value="Club Deportivo de la Universidad">La Argelia</option>
+        <option value="Publico General">La Ecuatoriana</option>
+        <option value="Estudiante">La Ecuatoriana</option>
+        <option value="Docente">La Ferroviaria</option>
+        <option value="Club Deportivo de la Universidad">La Libertad</option>
+        <option value="Publico General">La Mena</option>
+        <option value="Estudiante">La Merced</option>
+        <option value="Docente">Llano Chico</option>
+        <option value="Club Deportivo de la Universidad">Lloa</option>
+        <option value="Publico General">Magdalena</option>
+        <option value="Estudiante">Marical Sucre</option>
+        <option value="Docente">Nanegal</option>
+        <option value="Club Deportivo de la Universidad">Nanegalito</option>
+        <option value="Publico General">Nayón</option>
+        <option value="Estudiante">Nono</option>
+        <option value="Docente">Pacto</option>
+        <option value="Club Deportivo de la Universidad">Perucho</option>
+        <option value="Publico General">Pifo</option>
+        <option value="Estudiante">Píntag</option>
+        <option value="Docente">Pomasqui</option>
+        <option value="Club Deportivo de la Universidad">Ponceano</option>
+        <option value="Publico General">Puéllaro</option>
+        <option value="Estudiante">Puembo</option>
+        <option value="Docente">Puengasí</option>
+        <option value="Club Deportivo de la Universidad">Quitumbe</option>
+        <option value="Publico General">Rumipamba</option>
+        <option value="Estudiante">San Antonio de Pichincha</option>
+        <option value="Docente">San Bartolo</option>
+        <option value="Club Deportivo de la Universidad">San José de Minas</option>
+        <option value="Publico General">San Juan</option>
+        <option value="Estudiante">Solanda</option>
+        <option value="Docente">Tababela</option>
+        <option value="Club Deportivo de la Universidad">Tumbaco</option>
+        <option value="Publico General">Yaruquí</option>
+        <option value="Estudiante">Zámbiza</option>
       </select>
-      <label for="lastname" class="placeholder">Selecciona tu Grupo</label>
     </div>
 
     <!-- Pregunta 3 -->
