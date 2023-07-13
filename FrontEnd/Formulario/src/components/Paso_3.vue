@@ -376,7 +376,7 @@ export default {
   data() {
     return {
       stepData: {
-        input3: ''
+        // input3: ''
       }
     };
   },

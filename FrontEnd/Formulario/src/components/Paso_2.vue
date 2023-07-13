@@ -390,7 +390,7 @@ export default {
   data() {
     return {
       stepData: {
-        input2: ''
+        // input2: ''
       }
     };
   },

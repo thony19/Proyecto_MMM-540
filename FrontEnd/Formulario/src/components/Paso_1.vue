@@ -33,19 +33,19 @@
         <div class="input-container ic1 input imput_select">
           <select v-model="stepData.input5" required>
             <option value="" disabled selected>Seleccione una opción</option>
-            <option value="opcion1">Femenino</option>
-            <option value="opcion2">Masculino</option>
-            <option value="opcion3">Otro:</option>
+            <option value="Femenino">Femenino</option>
+            <option value="Masculino">Masculino</option>
+            <option value="Otro">Otro</option>
           </select>
           <label for="lastname" class="placeholder">Selecciona tu Género</label>
         </div>
         <div class="input-container ic1 input imput_select">
           <select v-model="stepData.input6" required>
             <option value="" disabled selected>Seleccione una opción</option>
-            <option value="opcion1">Estudiante</option>
-            <option value="opcion2">Docente</option>
-            <option value="opcion3">Club Deportivo de la Universidad</option>
-            <option value="opcion3">Publico General</option>
+            <option value="Estudiante">Estudiante</option>
+            <option value="Docente">Docente</option>
+            <option value="Club Deportivo de la Universidad">Club Deportivo de la Universidad</option>
+            <option value="Publico General">Publico General</option>
           </select>
           <label for="lastname" class="placeholder">Selecciona tu Grupo</label>
         </div>
@@ -460,7 +460,7 @@ export default {
   data() {
     return {
       stepData: {
-        input1: ''
+        // input1: ''
       }
     };
   },

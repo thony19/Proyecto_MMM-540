@@ -1,7 +1,6 @@
 <template>
   <div class="form_">
     <h2>Paso 4</h2>
-    <h3>Cuestionario de Inteligencias Múltiples</h3>
     <!-- Pregunta 81 -->
     <div class="input-container ic1 input">
       81 Disfruto clasificando cosas según sus características comunes.
@@ -736,7 +735,7 @@
     </div>
 
     <button @click="previousStep">Anterior</button>
-    <button @click="nextStep">Siguiente</button>
+    <button @click="submitForm">Enviar</button>
   </div>
 </template>
 
@@ -753,9 +752,9 @@ export default {
     previousStep() {
       this.$emit("previous");
     },
-    nextStep() {
-      this.$emit('next', this.stepData);
-    }
+    submitForm() {
+      this.$emit("submit", this.stepData);
+    },
   },
 };
 </script>

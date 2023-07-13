@@ -9,6 +9,12 @@ import Paso_1 from './Paso_1.vue';
 import Paso_2 from './Paso_2.vue';
 import Paso_3 from './Paso_3.vue';
 import Paso_4 from './Paso_4.vue';
+import Paso_5 from './Paso_5.vue';
+import Paso_6 from './Paso_6.vue';
+import Paso_7 from './Paso_7.vue';
+import Paso_8 from './Paso_8.vue';
+import Paso_9 from './Paso_9.vue';
+import Paso_10 from './Paso_10.vue';
 // import Paso_4Vue from ''
 
 export default {
@@ -16,8 +22,14 @@ export default {
     Paso_1,
     Paso_2,
     Paso_3,
-    Paso_4
-  },
+    Paso_4,
+    Paso_5,
+    Paso_6,
+    Paso_7,
+    Paso_8,
+    Paso_9,
+    Paso_10
+},
   data() {
     return {
       currentStep: 'Paso_1',
@@ -33,7 +45,19 @@ export default {
         this.currentStep = 'Paso_3';
       } else if (this.currentStep === 'Paso_3') {
         this.currentStep = 'Paso_4';
-      }
+      } else if (this.currentStep === 'Paso_4') {
+        this.currentStep = 'Paso_5';
+      } else if (this.currentStep === 'Paso_5') {
+        this.currentStep = 'Paso_6';
+      } else if (this.currentStep === 'Paso_6') {
+        this.currentStep = 'Paso_7';
+      } else if (this.currentStep === 'Paso_7') {
+        this.currentStep = 'Paso_8';
+      } else if (this.currentStep === 'Paso_8') {
+        this.currentStep = 'Paso_9';
+      } else if (this.currentStep === 'Paso_9') {
+        this.currentStep = 'Paso_10';
+      } 
     },
     previousStep() {
       if (this.currentStep === 'Paso_2') {
@@ -42,6 +66,18 @@ export default {
         this.currentStep = 'Paso_2';
       } else if (this.currentStep === 'Paso_4') {
         this.currentStep = 'Paso_3';
+      } else if (this.currentStep === 'Paso_5') {
+        this.currentStep = 'Paso_4';
+      } else if (this.currentStep === 'Paso_6') {
+        this.currentStep = 'Paso_5';
+      } else if (this.currentStep === 'Paso_7') {
+        this.currentStep = 'Paso_6';
+      } else if (this.currentStep === 'Paso_8') {
+        this.currentStep = 'Paso_7';
+      } else if (this.currentStep === 'Paso_9') {
+        this.currentStep = 'Paso_8';
+      } else if (this.currentStep === 'Paso_10') {
+        this.currentStep = 'Paso_9';
       }
     },
     submitForm(data) {
@@ -121,7 +157,7 @@ h2 {
   font-size: 18px;
   min-height: 50px;
   outline: 0;
-  padding: 4px 20px 0;
+  padding: 8px 20px;
   width: 100%;
 }
 
