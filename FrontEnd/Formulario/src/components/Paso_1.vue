@@ -11,48 +11,48 @@
           Toda la información que nos aportes será de uso estrictamente confidencial.
       </p>
       <div class="input-container ic1" >
-          <input class="input" placeholder=" " type="text" v-model="stepData.input1" required>
+          <input class="input" placeholder=" " type="text" v-model="stepData.name" required>
           <div class="cut"></div>
-          <label for="firstname" class="placeholder">Primer Nombre</label>
+          <label for="firstname" class="placeholder">Nombre</label>
         </div>
         <div class="input-container ic1">
-          <input class="input" placeholder=" " type="text" v-model="stepData.input2" required>
+          <input class="input" placeholder=" " type="text" v-model="stepData.surname" required>
           <div class="cut"></div>
-          <label for="lastname" class="placeholder">Segundo Nombre</label>
+          <label for="surname" class="placeholder">Apellido</label>
         </div>
         <div class="input-container ic1" >
-          <input class="input" placeholder=" " type="email" v-model="stepData.input3" required>
+          <input class="input" placeholder=" " type="email" v-model="stepData.gmail" required>
           <div class="cut"></div>
-          <label for="firstname" class="placeholder">Correo Electrónico</label>
+          <label for="gmail" class="placeholder">Correo Electrónico</label>
         </div>
         <div class="input-container ic1">
-          <input class="input" placeholder=" " type="date" v-model="stepData.input4" required>
+          <input class="input" placeholder=" " type="date" v-model="stepData.date" required>
           <div class="cut"></div>
-          <label for="lastname" class="placeholder">Fecha de Nacimiento</label>
+          <label for="date" class="placeholder">Fecha de Nacimiento</label>
         </div>
         <div class="input-container ic1 input imput_select">
-          <select v-model="stepData.input5" required>
+          <select v-model="stepData.gender" required>
             <option value="" disabled selected>Seleccione una opción</option>
             <option value="Femenino">Femenino</option>
             <option value="Masculino">Masculino</option>
             <option value="Otro">Otro</option>
           </select>
-          <label for="lastname" class="placeholder">Selecciona tu Género</label>
+          <label for="gender" class="placeholder">Selecciona tu Género</label>
         </div>
         <div class="input-container ic1 input imput_select">
-          <select v-model="stepData.input6" required>
+          <select v-model="stepData.group" required>
             <option value="" disabled selected>Seleccione una opción</option>
             <option value="Estudiante">Estudiante</option>
             <option value="Docente">Docente</option>
             <option value="Club Deportivo de la Universidad">Club Deportivo de la Universidad</option>
             <option value="Publico General">Publico General</option>
           </select>
-          <label for="lastname" class="placeholder">Selecciona tu Grupo</label>
+          <label for="group" class="placeholder">Selecciona tu Grupo</label>
         </div>
         <div class="input-container ic1">
-          <input class="input" placeholder=" " type="text" v-model="stepData.input7" required>
+          <input class="input" placeholder=" " type="text" v-model="stepData.specialty" required>
           <div class="cut"></div>
-          <label for="lastname" class="placeholder">Escribe tu especialidad</label>
+          <label for="specialty" class="placeholder">Escribe tu especialidad</label>
         </div>
         <div class="input-container ic1 input" style="padding: 15px;">
           Agradecimiento<br>

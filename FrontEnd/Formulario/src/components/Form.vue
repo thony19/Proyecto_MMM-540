@@ -15,7 +15,8 @@ import Paso_7 from './Paso_7.vue';
 import Paso_8 from './Paso_8.vue';
 import Paso_9 from './Paso_9.vue';
 import Paso_10 from './Paso_10.vue';
-// import Paso_4Vue from ''
+import axios from 'axios';
+
 
 export default {
   components: {
@@ -83,7 +84,18 @@ export default {
     submitForm(data) {
       this.formData = { ...this.formData, ...data };
       console.log(this.formData); // Aquí puedes hacer lo que desees con los datos del formulario
-    }
+      
+      axios.post('http://tu_backend_matlab.com/ruta', this.formData)
+      .then(response => {
+        // Realiza las acciones necesarias con la respuesta del backend de MATLAB
+        console.log(response.data);
+      })
+      .catch(error => {
+        // Maneja el error en caso de que ocurra
+        console.error(error);
+      });
+    },
+
   }
 };
 </script>
@@ -152,7 +164,6 @@ h2 {
   background-color: #303245;
   border-radius: 12px;
   border: 0;
-  box-sizing: border-box;
   color: #eee;
   font-size: 18px;
   min-height: 50px;
