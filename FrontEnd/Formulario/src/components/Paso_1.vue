@@ -77,11 +77,11 @@
           1 Tengo fama de decir lo que pienso claramente y sin rodeos
           <div>
             <label>
-            <input type="radio" v-model="stepData.input8" name="pregunta1" value="si" required>
+            <input type="radio" v-model="stepData.Honey_1" name="pregunta1" value=1 required>
               Si
             </label>
             <label>
-              <input type="radio" v-model="stepData.input8" name="pregunta1" value="no" required>
+              <input type="radio" v-model="stepData.Honey_1" name="pregunta1" value=0 required>
               No
             </label>
           </div>
@@ -91,11 +91,11 @@
           2 Estoy seguro/a de lo que es bueno y lo que es malo, lo que está bien y lo que está mal.
           <div>
             <label>
-            <input type="radio" v-model="stepData.input9" name="pregunta2" value="si" required>
+            <input type="radio" v-model="stepData.Honey_2" name="pregunta2" value=1 required>
               Si
             </label>
             <label>
-              <input type="radio" v-model="stepData.input9" name="pregunta2" value="no" required>
+              <input type="radio" v-model="stepData.Honey_2" name="pregunta2" value=0 required>
               No
             </label>
           </div>
@@ -105,11 +105,11 @@
           3 Muchas veces actúo sin mirar las consecuencias
           <div>
             <label>
-            <input type="radio" v-model="stepData.input10" name="pregunta3" value="si" required>
+            <input type="radio" v-model="stepData.Honey_3" name="pregunta3" value=1 required>
               Si
             </label>
             <label>
-              <input type="radio" v-model="stepData.input10" name="pregunta3" value="no" required>
+              <input type="radio" v-model="stepData.Honey_3" name="pregunta3" value=0 required>
               No
             </label>
           </div>
@@ -119,11 +119,11 @@
           4 Normalmente trato de resolver los problemas metódicamente y paso a paso
           <div>
             <label>
-            <input type="radio" v-model="stepData.input11" name="pregunta4" value="si" required>
+            <input type="radio" v-model="stepData.Honey_4" name="pregunta4" value=1 required>
               Si
             </label>
             <label>
-              <input type="radio" v-model="stepData.input11" name="pregunta4" value="no" required>
+              <input type="radio" v-model="stepData.Honey_4" name="pregunta4" value=0 required>
               No
             </label>
           </div>
@@ -133,11 +133,11 @@
           5 Creo que los formalismos coartan y limitan la actuación libre de las personas
           <div>
             <label>
-            <input type="radio" v-model="stepData.input12" name="pregunta5" value="si" required>
+            <input type="radio" v-model="stepData.Honey_5" name="pregunta5" value=1 required>
               Si
             </label>
             <label>
-              <input type="radio" v-model="stepData.input12" name="pregunta5" value="no" required>
+              <input type="radio" v-model="stepData.Honey_5" name="pregunta5" value=0 required>
               No
             </label>
           </div>
@@ -147,11 +147,11 @@
           6 Me interesa saber cuáles son los sistemas de valores de los demás y con qué criterios actúan
           <div>
             <label>
-            <input type="radio" v-model="stepData.input13" name="pregunta6" value="si" required>
+            <input type="radio" v-model="stepData.Honey_6" name="pregunta6" value=1 required>
               Si
             </label>
             <label>
-              <input type="radio" v-model="stepData.input13" name="pregunta6" value="no" required>
+              <input type="radio" v-model="stepData.Honey_6" name="pregunta6" value=0 required>
               No
             </label>
           </div>
@@ -161,11 +161,11 @@
           7 Pienso que el actuar intuitivamente puede ser siempre tan válido como actuar reflexivamente.
           <div>
             <label>
-            <input type="radio" v-model="stepData.input14" name="pregunta7" value="si" required>
+            <input type="radio" v-model="stepData.Honey_7" name="pregunta7" value=1 required>
               Si
             </label>
             <label>
-              <input type="radio" v-model="stepData.input14" name="pregunta7" value="no" required>
+              <input type="radio" v-model="stepData.Honey_7" name="pregunta7" value=0 required>
               No
             </label>
           </div>
@@ -175,11 +175,11 @@
           8 Creo que lo más importante es que las cosas funcionen
           <div>
             <label>
-            <input type="radio" v-model="stepData.input15" name="pregunta8" value="si" required>
+            <input type="radio" v-model="stepData.Honey_8" name="pregunta8" value=1 required>
               Si
             </label>
             <label>
-              <input type="radio" v-model="stepData.input15" name="pregunta8" value="no" required>
+              <input type="radio" v-model="stepData.Honey_8" name="pregunta8" value=0 required>
               No
             </label>
           </div>
@@ -189,11 +189,11 @@
           9 Procuro estar al tanto de lo que ocurre aquí y ahora
           <div>
             <label>
-            <input type="radio" v-model="stepData.input16" name="pregunta9" value="si" required>
+            <input type="radio" v-model="stepData.Honey_9" name="pregunta9" value=1 required>
               Si
             </label>
             <label>
-              <input type="radio" v-model="stepData.input16" name="pregunta9" value="no" required>
+              <input type="radio" v-model="stepData.Honey_9" name="pregunta9" value=0 required>
               No
             </label>
           </div>
@@ -203,11 +203,11 @@
           10 Disfruto cuando tengo tiempo para preparar mi trabajo y realizarlo a conciencia
           <div>
             <label>
-            <input type="radio" v-model="stepData.input17" name="pregunta10" value="si" required>
+            <input type="radio" v-model="stepData.Honey_10" name="pregunta10" value=1 required>
               Si
             </label>
             <label>
-              <input type="radio" v-model="stepData.input17" name="pregunta10" value="no" required>
+              <input type="radio" v-model="stepData.Honey_10" name="pregunta10" value=0 required>
               No
             </label>
           </div>
@@ -217,11 +217,11 @@
           11 Estoy a gusto siguiendo un orden en las comidas, en el estudio, haciendo ejercicio regularmente
           <div>
             <label>
-            <input type="radio" v-model="stepData.input18" name="pregunta11" value="si" required>
+            <input type="radio" v-model="stepData.Honey_11" name="pregunta11" value=1 required>
               Si
             </label>
             <label>
-              <input type="radio" v-model="stepData.input18" name="pregunta11" value="no" required>
+              <input type="radio" v-model="stepData.Honey_11" name="pregunta11" value=0 required>
               No
             </label>
           </div>
@@ -231,11 +231,11 @@
           12 Cuando escucho una nueva idea enseguida comienzo a pensar cómo ponerla en práctica
           <div>
             <label>
-            <input type="radio" v-model="stepData.input19" name="pregunta12" value="si" required>
+            <input type="radio" v-model="stepData.Honey_12" name="pregunta12" value=1required>
               Si
             </label>
             <label>
-              <input type="radio" v-model="stepData.input19" name="pregunta12" value="no" required>
+              <input type="radio" v-model="stepData.Honey_12" name="pregunta12" value=0 required>
               No
             </label>
           </div>
@@ -245,11 +245,11 @@
           13 Prefiero las ideas originales y novedosas aunque no sean prácticas
           <div>
             <label>
-            <input type="radio" v-model="stepData.input20" name="pregunta13" value="si" required>
+            <input type="radio" v-model="stepData.Honey_13" name="pregunta13" value=1 required>
               Si
             </label>
             <label>
-              <input type="radio" v-model="stepData.input20" name="pregunta13" value="no" required>
+              <input type="radio" v-model="stepData.Honey_13" name="pregunta13" value=0 required>
               No
             </label>
           </div>
@@ -259,11 +259,11 @@
           14 Admito y me ajusto a las normas sólo si me sirven para lograr mis objetivos
           <div>
             <label>
-            <input type="radio" v-model="stepData.input21" name="pregunta14" value="si" required>
+            <input type="radio" v-model="stepData.Honey_14" name="pregunta14" value=1 required>
               Si
             </label>
             <label>
-              <input type="radio" v-model="stepData.input21" name="pregunta14" value="no" required>
+              <input type="radio" v-model="stepData.Honey_14" name="pregunta14" value=0 required>
               No
             </label>
           </div>
@@ -273,11 +273,11 @@
           15 Normalmente encajo bien con personas reflexivas, y me cuesta sintonizar con personas demasiado espontáneas, imprevisibles
           <div>
             <label>
-            <input type="radio" v-model="stepData.input22" name="pregunta15" value="si" required>
+            <input type="radio" v-model="stepData.Honey_15" name="pregunta15" value=1 required>
               Si
             </label>
             <label>
-              <input type="radio" v-model="stepData.input22" name="pregunta15" value="no" required>
+              <input type="radio" v-model="stepData.Honey_15" name="pregunta15" value=0 required>
               No
             </label>
           </div>
@@ -287,11 +287,11 @@
           16 Escucho con más frecuencia que hablo
           <div>
             <label>
-            <input type="radio" v-model="stepData.input23" name="pregunta16" value="si" required>
+            <input type="radio" v-model="stepData.Honey_16" name="pregunta16" value=1 required>
               Si
             </label>
             <label>
-              <input type="radio" v-model="stepData.input23" name="pregunta16" value="no" required>
+              <input type="radio" v-model="stepData.Honey_16" name="pregunta16" value=0 required>
               No
             </label>
           </div>
@@ -301,11 +301,11 @@
           17 Prefiero las cosas estructuradas a las desordenadas
           <div>
             <label>
-            <input type="radio" v-model="stepData.input24" name="pregunta17" value="si" required>
+            <input type="radio" v-model="stepData.Honey_17" name="pregunta17" value=1 required>
               Si
             </label>
             <label>
-              <input type="radio" v-model="stepData.input24" name="pregunta17" value="no" required>
+              <input type="radio" v-model="stepData.Honey_17" name="pregunta17" value=0 required>
               No
             </label>
           </div>
@@ -315,11 +315,11 @@
           18 Cuando poseo cualquier información, trato de interpretarla bien antes de manifestar alguna conclusión
           <div>
             <label>
-            <input type="radio" v-model="stepData.input25" name="pregunta18" value="si" required>
+            <input type="radio" v-model="stepData.Honey_18" name="pregunta18" value=1 required>
               Si
             </label>
             <label>
-              <input type="radio" v-model="stepData.input25" name="pregunta18" value="no" required>
+              <input type="radio" v-model="stepData.Honey_18" name="pregunta18" value=0 required>
               No
             </label>
           </div>
@@ -329,11 +329,11 @@
           19 Antes de hacer algo estudio con cuidado sus ventajas e inconvenientes
           <div>
             <label>
-            <input type="radio" v-model="stepData.input26" name="pregunta19" value="si" required>
+            <input type="radio" v-model="stepData.Honey_19" name="pregunta19" value=1 required>
               Si
             </label>
             <label>
-              <input type="radio" v-model="stepData.input26" name="pregunta19" value="no" required>
+              <input type="radio" v-model="stepData.Honey_19" name="pregunta19" value=0 required>
               No
             </label>
           </div>
@@ -343,11 +343,11 @@
           20 Me entusiasmo con el reto de hacer algo nuevo y diferente
           <div>
             <label>
-            <input type="radio" v-model="stepData.input27" name="pregunta20" value="si" required>
+            <input type="radio" v-model="stepData.Honey_20" name="pregunta20" value=1 required>
               Si
             </label>
             <label>
-              <input type="radio" v-model="stepData.input27" name="pregunta20" value="no" required>
+              <input type="radio" v-model="stepData.Honey_20" name="pregunta20" value=0 required>
               No
             </label>
           </div>
@@ -357,11 +357,11 @@
           21 Casi siempre procuro ser coherente con mis criterios y sistemas de valores. Tengo principios y los sigo
           <div>
             <label>
-            <input type="radio" v-model="stepData.input28" name="pregunta21" value="si" required>
+              <input type="radio" v-model="stepData.Honey_21" name="pregunta21" value=1 required>
               Si
             </label>
             <label>
-              <input type="radio" v-model="stepData.input28" name="pregunta21" value="no" required>
+              <input type="radio" v-model="stepData.Honey_21" name="pregunta21" value=0 required>
               No
             </label>
           </div>
@@ -371,11 +371,11 @@
           22 Cuando hay una discusión no me gusta ir con rodeos
           <div>
             <label>
-            <input type="radio" v-model="stepData.input29" name="pregunta22" value="si" required>
+              <input type="radio" v-model="stepData.Honey_22" name="pregunta22" value=1 required>
               Si
             </label>
             <label>
-              <input type="radio" v-model="stepData.input29" name="pregunta22" value="no" required>
+              <input type="radio" v-model="stepData.Honey_22" name="pregunta22" value=0 required>
               No
             </label>
           </div>
@@ -385,11 +385,11 @@
           23 Me disgusta implicarme afectivamente en el ambiente de la escuela. Prefiero mantener relaciones distantes
           <div>
             <label>
-            <input type="radio" v-model="stepData.input30" name="pregunta23" value="si" required>
+              <input type="radio" v-model="stepData.Honey_23" name="pregunta23" value=1 required>
               Si
             </label>
             <label>
-              <input type="radio" v-model="stepData.input30" name="pregunta=23" value="no" required>
+              <input type="radio" v-model="stepData.Honey_23" name="pregunta=23" value=0 required>
               No
             </label>
           </div>
@@ -399,11 +399,11 @@
           24 Me gustan más las personas realistas y concretas que las teóricas
           <div>
             <label>
-            <input type="radio" v-model="stepData.input31" name="pregunta24" value="si" required>
+            <input type="radio" v-model="stepData.Honey_24" name="pregunta24" value=1 required>
               Si
             </label>
             <label>
-              <input type="radio" v-model="stepData.input31" name="pregunta24" value="no" required>
+              <input type="radio" v-model="stepData.Honey_24" name="pregunta24" value=0 required>
               No
             </label>
           </div>
@@ -413,11 +413,11 @@
           25 Me cuesta ser creativo/a, romper estructuras
           <div>
             <label>
-            <input type="radio" v-model="stepData.input32" name="pregunta25" value="si" required>
+              <input type="radio" v-model="stepData.Honey_25" name="pregunta25" value=1 required>
               Si
             </label>
             <label>
-              <input type="radio" v-model="stepData.input32" name="pregunta25" value="no" required>
+              <input type="radio" v-model="stepData.Honey_25" name="pregunta25" value=0 required>
               No
             </label>
           </div>
@@ -427,11 +427,11 @@
           26 Me siento a gusto con personas espontáneas y divertidas
           <div>
             <label>
-            <input type="radio" v-model="stepData.input33" name="pregunta26" value="si" required>
+              <input type="radio" v-model="stepData.Honey_26" name="pregunta26" value=1 required>
               Si
             </label>
             <label>
-              <input type="radio" v-model="stepData.input33" name="pregunta26" value="no" required>
+              <input type="radio" v-model="stepData.Honey_26" name="pregunta26" value=0 required>
               No
             </label>
           </div>
@@ -441,11 +441,11 @@
           27 La mayoría de las veces expreso abiertamente cómo me siento
           <div>
             <label>
-            <input type="radio" v-model="stepData.input34" name="pregunta27" value="si" required>
+            <input type="radio" v-model="stepData.Honey_27" name="pregunta27" value=1 required>
               Si
             </label>
             <label>
-              <input type="radio" v-model="stepData.input34" name="pregunta27" value="no" required>
+              <input type="radio" v-model="stepData.Honey_27" name="pregunta27" value=0 required>
               No
             </label>
           </div>
@@ -460,13 +460,53 @@ export default {
   data() {
     return {
       stepData: {
-        // input1: ''
+        name: '',
+        surname: '',
+        gmail: '',
+        date: '',
+        gender: '',
+        group: '',
+        specialty: '',
+        Honey_27: '',
+        Honey_26: '',
+        Honey_25: '',
+        Honey_24: '',
+        Honey_23: '',
+        Honey_22: '',
+        Honey_21: '',
+        Honey_20: '',
+        Honey_19: '',
+        Honey_18: '',
+        Honey_17: '',
+        Honey_16: '',
+        Honey_15: '',
+        Honey_14: '',
+        Honey_13: '',
+        Honey_12: '',
+        Honey_11: '',
+        Honey_10: '',
+        Honey_9: '',
+        Honey_8: '',
+        Honey_7: '',
+        Honey_6: '',
+        Honey_5: '',
+        Honey_4: '',
+        Honey_3: '',
+        Honey_2: '',
+        Honey_1: ''
       }
     };
   },
   methods: {
     nextStep() {
-      this.$emit('next', this.stepData);
+      let pass = true;
+      for (var i in this.stepData) {
+        if (this.stepData[i] == '') {
+          pass = false;
+        }
+      }
+
+      if (pass) this.$emit('next', this.stepData);
     }
   }
 };

@@ -84,16 +84,16 @@ export default {
     submitForm(data) {
       this.formData = { ...this.formData, ...data };
       console.log(this.formData); // Aquí puedes hacer lo que desees con los datos del formulario
-      
-      axios.post('http://tu_backend_matlab.com/ruta', this.formData)
-      .then(response => {
-        // Realiza las acciones necesarias con la respuesta del backend de MATLAB
-        console.log(response.data);
-      })
-      .catch(error => {
-        // Maneja el error en caso de que ocurra
-        console.error(error);
-      });
+
+      // axios.post('http://tu_backend_matlab.com/ruta', this.formData)
+      // .then(response => {
+      //   // Realiza las acciones necesarias con la respuesta del backend de MATLAB
+      //   console.log(response.data);
+      // })
+      // .catch(error => {
+      //   // Maneja el error en caso de que ocurra
+      //   console.error(error);
+      // });
     },
 
   }
@@ -166,7 +166,7 @@ h2 {
   border: 0;
   color: #eee;
   font-size: 18px;
-  min-height: 50px;
+  min-height: 40px;
   outline: 0;
   padding: 8px 20px;
   width: 100%;
